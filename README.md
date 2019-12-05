@@ -2,6 +2,8 @@ kubecfg
 ===
 kubecfg, more convenient tool for kube config
 
+<p align="center"><img src="/image/kubecfg.gif?raw=true"/></p>
+
 ## Install
 
 ### Shell Install support Linux & MacOS
