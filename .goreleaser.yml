@@ -9,6 +9,9 @@ before:
 builds:
   - env:
       - CGO_ENABLED=0
+  - ldflags:
+      - -X github.com/x-mod/build.version={{.Tag}}
+      - -X github.com/x-mod/build.commit={{.Commit}}
 archives:
   - replacements:
       darwin: Darwin
